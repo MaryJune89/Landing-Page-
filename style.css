@@ -1,6 +1,4 @@
-/******************************************
-/* HOT GARBAGE - PLEASE DON'T MIMIC THIS CSS
-/*******************************************/
+
 
 /* Box Model Hack */
 *{
@@ -79,19 +77,23 @@
 width: 100%;
 height: 90vh;
   }
-  .content .one{
+@media screen and(max-width: 768px){  
+.content .one{
       width: 60%;
       padding: 0 100px;
   }
+}
   .content .one h1{
       font-size: 60px;
   }
-  .content .one img{
+@media screen and(max-width: 768px){  
+.content .one img{
       width: 50px;
       height:50%px;
       margin-top: 8px;
       margin-left: -10px;
   }
+}
   .content .one p{
       font-size: 16px;
       padding: 10px 0;
